@@ -23,7 +23,7 @@ async def getdocument(client, message):
     try:
         response = upload_file(doc_path)
     except Exception as e:
-        await vid.edit_text(f"{e}\n\nReport to @HypeVoids or @Krakinz\n𝗜𝗺𝗮𝗴𝗲 𝟮 𝗨𝗥𝗟 |••☆☆╮")
+        await vid.edit_text(f"{e}\n\nReport to @Krakns or @Krakinz\n𝗜𝗺𝗮𝗴𝗲 𝟮 𝗨𝗥𝗟 |••☆☆╮")
         await message.reply_text("Retry in few seconds")
         return
     await vid.edit_text(

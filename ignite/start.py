@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton(
           "🚀『 𝐆𝐫𝐨𝐮𝐩 』",
-          url="https://t.me/hypevoids")],
+          url="https://t.me/Krakns")],
         [InlineKeyboardButton(
           "🍗『 𝐖𝐚𝐥𝐥𝐩𝐚𝐩𝐞𝐫𝐬 』",
           url="https://t.me/vrtxwalls")],
