@@ -23,11 +23,11 @@ async def getdocument(client, message):
     try:
         response = upload_file(doc_path)
     except Exception as e:
-        await vid.edit_text(f"{e}\n\nReport to @HypeVoids or @HypeVoidSoul\n𝗜𝗺𝗮𝗴𝗲 𝟮 𝗨𝗥𝗟 |••☆☆╮")
+        await vid.edit_text(f"{e}\n\nReport to @HypeVoids or @Krakinz\n𝗜𝗺𝗮𝗴𝗲 𝟮 𝗨𝗥𝗟 |••☆☆╮")
         await message.reply_text("Retry in few seconds")
         return
     await vid.edit_text(
-        text=f"""<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n🖥 Dҽʋ Mҽɳƚισɳ: @hypevoidsoul | @hypevoidbot\n╰☆☆••| ╰☆☆••| 𝗜𝗺𝗮𝗴𝗲 𝟮 𝗨𝗥𝗟 |••☆☆╮""",
+        text=f"""<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n🖥 Dҽʋ Mҽɳƚισɳ: @Krakinz | @KrakinzBot\n╰☆☆••| ╰☆☆••| 𝗜𝗺𝗮𝗴𝗲 𝟮 𝗨𝗥𝗟 |••☆☆╮""",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([[
         InlineKeyboardButton(

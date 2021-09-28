@@ -1,6 +1,6 @@
 {"name": "Telegram-Image2Url",
 "description": "A bot to upload telegram images to telegraph",
-"repository": "https://github.com/HypeVoidSoul/Image-to-URL.git",
+"repository": "https://github.com/Krakinz/Image-to-URL.git",
 "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
 "keywords": ["telegram", "telegraph", "imageuploader","telegram bot"],
 "env":{"BOT_TOKEN":{
